@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include "vector.h"
 
 int main(void) {
-    int cat = 1;
-    int *i = &cat;
-    printf("cat: %p\n", i);
+    
 }
+
+void vect_init (vector* v, size_t capacity){
+    printf("%li\n", capacity);
+}
+
