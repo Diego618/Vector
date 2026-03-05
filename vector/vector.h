@@ -8,6 +8,8 @@ typedef struct {
 } vector;
 
 void vect_init (vector* v, size_t capacity);
-void vect_push ();
+void vect_push (vector* v, int value);
+void vect_resize (vector* v, int value);
+void vect_free (vector* v);
 
 #endif
